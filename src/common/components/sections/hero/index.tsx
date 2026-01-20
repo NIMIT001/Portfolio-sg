@@ -49,7 +49,7 @@ export default function Hero() {
                 Hey!
               </motion.span>
               <br />
-              <TextAnimation delay={1} baseText={`I'm Nimit`} />
+              <TextAnimation delay={1} baseText={`I'm Soumi`} />
             </div>
             <motion.div
               className="w-92 flex flex-col items-center justify-center gap-3 px-4 text-sm font-medium md:mt-12 md:flex-row lg:text-lg"
@@ -72,7 +72,7 @@ export default function Hero() {
 
               <a
                 className="borderBlack group flex w-64 cursor-pointer items-center justify-center gap-2 rounded-full bg-white px-7 py-3 text-black outline-none transition hover:bg-gray-100 dark:bg-white/10 dark:text-white dark:hover:bg-white/20 sm:w-auto"
-                href="/Nimit_CV.pdf"
+                href="/Soumi_CV.pdf"
                 download
               >
                 <span>Download CV</span>
@@ -81,14 +81,14 @@ export default function Hero() {
               <div className="flex gap-2">
                 <a
                   className="borderBlack flex h-[50px] w-[50px] cursor-pointer items-center justify-center gap-2 rounded-full bg-white p-2 text-black transition hover:bg-gray-100 hover:text-gray-950 dark:bg-white/10 dark:text-white/60 dark:hover:bg-white/20"
-                  href="https://www.linkedin.com/in/nimit-kumar-soni-05351322b/"
+                  href="https://www.linkedin.com/in/soumi-ghosh-794467206/"
                   target="_blank"
                 >
                   <Linkedin />
                 </a>
                 <a
                   className="borderBlack flex h-[50px] w-[50px] cursor-pointer items-center justify-center gap-2 rounded-full bg-white p-2 text-gray-700 transition hover:bg-gray-100 hover:text-gray-950 dark:bg-white/10 dark:text-white/60 dark:hover:bg-white/20"
-                  href="https://github.com/NIMIT001"
+                  href="https://github.com/Soumi-Ghosh"
                   target="_blank"
                 >
                   <Image

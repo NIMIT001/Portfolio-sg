@@ -10,9 +10,9 @@ import Footer from '@/common/components/shared/footer';
 import { ModeToggle } from '@/common/theme/mode-toggler';
 
 export const metadata: Metadata = {
-  title: 'Nimit Kumar Soni | Portfolio',
+  title: 'Soumi Ghosh | Portfolio',
   description:
-    'Check out modern and stylish porfolio of an experienced Web Developer Nimit! Built using TypeScript, Next.js 14, Framaer Motion and Tailwind CSS.',
+    'Check out modern and stylish porfolio of an experienced Web Developer Soumi! Built using TypeScript, Next.js 14, Framaer Motion and Tailwind CSS.',
 };
 
 const fontMontserrat = FontMontserrat({

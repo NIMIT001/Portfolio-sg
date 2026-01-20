@@ -43,28 +43,27 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'React Intern',
-    location: 'Jabalpur',
-    description: `Developed a React.js-based front-end for a user feedback portal that improved customer data collection, reducing data processing time by 25%.`,
+    title: 'GAMUT INFOSYSTEMS LIMITED ',
+    location: 'Kolkata, West Bengal',
+    description: `Designed and developed an e-commerce website with front-end and back-end layers.`,
     icon: React.createElement(BriefcaseBusinessIcon),
-   
-    date: 'Dec 2023 - Feb 2024',
+
+    date: 'NOV. 2025 – Present',
   },
   {
-    title: 'Jabalpur Engineering College',
-    location: 'Jabalpur,M.P',
-    description: `Bachelor's degree in Computer Science and Engineering. Studying on the faculty of Computer Scienceand Software Engineering. `,
-   icon: React.createElement(BookIcon),
-    date: 'Jun 2021 - Present',
+    title: 'ASANSOL ENGINEERING COLLEGE',
+    location: 'Asansol, West Bengal',
+    description: `Bachelor's degree in Information Technology.`,
+    icon: React.createElement(BookIcon),
+    date: 'Jun 2021 - May 2025',
   },
-  
+
   {
-    title: 'Kendriya Vidhyalaya C.M.M',
-    location: 'Jabalpur',
-    description: `Completed My High School with Subjects : Math,Biology,Chemistry,Physics,English.`,
+    title: 'Rajkamal Saraswati Vidya Mandir ',
+    location: 'Dhanbad, Jharkhand',
+    description: `Completed My High School with Subjects : Math,Chemistry,Physics,English.`,
     icon: React.createElement(BookIcon),
     date: 'June 2020',
-
   },
 ] as const;
 
@@ -81,32 +80,11 @@ export const projectsData = [
     title: 'Hirred',
     description:
       'A platform for Recuriter to Hire and Candidates gets Hired with robust user management.',
-    tags: [
-      'React',
-      'Supabase',
-      'Axios',
-      'Clerk',
-      'Shadcn',
-      'Tailwind',
-    ],
+    tags: ['React', 'Supabase', 'Axios', 'Clerk', 'Shadcn', 'Tailwind'],
     imageUrl: hirredImg,
     link: 'https://hirred1.vercel.app/',
   },
-  {
-    title: 'Portfolio',
-    description: `Portfolio that you're currently viewing! This project showcases my work and provides information about me.`,
-    tags: [
-      'React',
-      'TypeScript',
-      'Next.js',
-      'Framer Motion',
-      'Cloudinary',
-      'React Email',
-      'Tailwind',
-    ],
-    imageUrl: portfolioImg,
-    link: 'https://github.com/bbyc4kes/portfolio',
-  },
+
   {
     title: 'RailScout',
     description: `RailScout is a railway pathfinder app that uses React, Three.js, and Geolocation API to visually map routes between station destinations.`,
@@ -118,7 +96,7 @@ export const projectsData = [
       'SCRUM Methodology',
       'End-to-End Development',
     ],
-    imageUrl: railscoutImg ,
+    imageUrl: railscoutImg,
     link: 'https://rail-scouts-omega.vercel.app/',
   },
   // {
